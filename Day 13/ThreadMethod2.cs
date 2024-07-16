@@ -38,6 +38,8 @@ class Animal
 		t1.Start();
 		t2.Start();
         t2.Join(3000);
+        Thread.Sleep(3000);
+        t2.Abort();
         t3.Start();
 	}
 }
