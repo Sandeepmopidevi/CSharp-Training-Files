@@ -15,7 +15,6 @@ class Task1
         ch3Th.Join();
         Console.WriteLine("All characters have finished their actions.");
     }
-
     static void PerformAction(object characterName)
     {
         string name = (string)characterName;
