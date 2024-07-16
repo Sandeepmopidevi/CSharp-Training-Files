@@ -7,7 +7,6 @@ class Task2
     {
         string name = (string)runnerName;
         Console.WriteLine(name+" started running.");
-
         for (int lap = 1; lap <= 5; lap++)
         {
             Console.WriteLine(name+" completed lap"+ lap);
@@ -18,7 +17,6 @@ class Task2
                 Thread.Sleep(500);
             }
         }
-
         Console.WriteLine(name+" finished running.");
     }
     static void Main()
