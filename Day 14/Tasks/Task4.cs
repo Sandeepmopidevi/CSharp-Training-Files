@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 class Task4
 {
     static void Main()
@@ -13,7 +12,9 @@ class Task4
         studentNm.Reverse();
         foreach (string name in studentNm)
         {
-            string revName = new string(name.Reverse().ToArray());
+            char[] charArray = name.ToCharArray();
+            Array.Reverse(charArray);
+            string revName = new string(charArray);
             bool isPalindrome = name.Equals(revName);
             Console.WriteLine(name + " is" + (isPalindrome ? "" : " not") + " a palindrome.");
         }
