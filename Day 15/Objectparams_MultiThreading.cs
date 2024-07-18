@@ -1,16 +1,16 @@
 using System;
 using System.Threading;
 class Animal{
-    static void Dog(object parm){
-        int n = (int)parm;
+    static void Dog(object param){
+        int n = (int)param;
         for (int i=0;i<n;i++){
             Console.WriteLine("Dog is running lap"+i);
             Console.WriteLine("Dog is Sleeping");
         }
         Console.WriteLine("Dog Finished Running");
     }
-    static void Cat(object parm){
-        int n = (int)parm;
+    static void Cat(object param){
+        int n = (int)param;
         for (int i=0;i<n;i++){
             Console.WriteLine("Cat is running lap"+i);
             Console.WriteLine("Cat is Sleeping");
