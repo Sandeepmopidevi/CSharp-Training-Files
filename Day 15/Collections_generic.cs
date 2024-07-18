@@ -13,5 +13,10 @@ class C1{
         while(enumerator.MoveNext()){
             Console.WriteLine(enumerator.Current);
         }
+       enumerator.Reset();
+        Console.WriteLine("No of Elements"+i1.Count);
+        while(enumerator.MoveNext()){
+            Console.WriteLine(enumerator.Current);
+        }
     }
 }
