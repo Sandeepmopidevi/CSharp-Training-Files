@@ -18,5 +18,16 @@ class C1{
         while(enumerator.MoveNext()){
             Console.WriteLine(enumerator.Current);
         }
+        //foreach
+         Console.WriteLine("For Each");
+        foreach(var a in i1){
+            Console.WriteLine(a);
+        }
+        //ienumerable
+         Console.WriteLine("Enumerable");
+        IEnumerable<string> i2 = i1;
+        foreach(var a in i2){
+            Console.WriteLine(a);
+        }
     }
 }

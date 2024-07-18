@@ -10,4 +10,5 @@ class demo{
         mycall.CopyTo(s1,0); // s1 = {"Hello", "Hi:", "Hey"}
         Console.WriteLine(s1[1]);
     }
+    
 }
