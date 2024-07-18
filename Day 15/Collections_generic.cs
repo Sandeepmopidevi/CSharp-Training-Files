@@ -29,5 +29,13 @@ class C1{
         foreach(var a in i2){
             Console.WriteLine(a);
         }
+        //list enumerator
+        Console.WriteLine("List Enumerator");
+        List<string> list = new List<string>(i1);
+        var listEnumerator = list.GetEnumerator();
+        while (listEnumerator.MoveNext())
+        {
+            Console.WriteLine(listEnumerator.Current);
+        }
     }
 }
