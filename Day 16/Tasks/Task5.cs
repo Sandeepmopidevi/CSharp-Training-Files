@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class ColorPalette
+class Task5
 {
     static void Main()
     {
