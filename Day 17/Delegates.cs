@@ -14,5 +14,6 @@ class C1{
         sub s = new sub(c.minus);
         a(10,20);
         s(30,20);
+        a(34,43);
     }
 }
