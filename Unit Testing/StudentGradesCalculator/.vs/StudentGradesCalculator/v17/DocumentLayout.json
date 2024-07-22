@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|solutionrelative:studentgradescalculator\\std.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|c:\\users\\sandeep_pc\\source\\repos\\studentgradescalculator\\studentgradescalculator\\studentgradescalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|solutionrelative:studentgradescalculator\\studentgradescalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|c:\\users\\sandeep_pc\\source\\repos\\studentgradescalculator\\studentgradescalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|solutionrelative:studentgradescalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|c:\\users\\sandeep_pc\\source\\repos\\studentgradescalculator\\studentgradescalculator\\studentgradescalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E572BF75-0C74-4B44-BC29-27C0C255760E}|StudentGradesCalculator\\StudentGradesCalculator.csproj|solutionrelative:studentgradescalculator\\studentgradescalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,15 +36,15 @@
               "RelativeDocumentMoniker": "StudentGradesCalculator\\Std.cs",
               "ToolTip": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StudentGradesCalculator\\Std.cs",
               "RelativeToolTip": "StudentGradesCalculator\\Std.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAwAAAANAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T06:19:44.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentGradesCalculator",
+              "DocumentIndex": 3,
+              "Title": "StudentGradesCalculator.csproj",
               "DocumentMoniker": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StudentGradesCalculator\\StudentGradesCalculator.csproj",
               "RelativeDocumentMoniker": "StudentGradesCalculator\\StudentGradesCalculator.csproj",
               "ToolTip": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StudentGradesCalculator\\StudentGradesCalculator.csproj",
@@ -62,20 +62,20 @@
               "RelativeDocumentMoniker": "StdTest.nUnitTests\\GradeCal.cs",
               "ToolTip": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StdTest.nUnitTests\\GradeCal.cs",
               "RelativeToolTip": "StdTest.nUnitTests\\GradeCal.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBEAAAA9AAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwD4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T06:37:52.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StudentGradesCalculator\\Program.cs",
               "RelativeDocumentMoniker": "StudentGradesCalculator\\Program.cs",
               "ToolTip": "C:\\Users\\SANDEEP_PC\\source\\repos\\StudentGradesCalculator\\StudentGradesCalculator\\Program.cs",
               "RelativeToolTip": "StudentGradesCalculator\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T06:25:18.874Z",
               "EditorCaption": ""
