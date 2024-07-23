@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Drawing;
 
 namespace AdoConnect
 {
@@ -7,9 +8,13 @@ namespace AdoConnect
     {
         static void Main(string[] args)
         {
-            new Program().InsertDataAndCountRows();
+            using (SqlConnection con = new SqlConnection("data source=SANDEEP-PC\\SQLEXPRESS;database=GEC;integrated security=SSPI;"))
+            {
+                con.Open();
+                new Program().QueryTable(con);
+            }
         }
-        public void CreateTable()
+public void CreateTable()
         {
             SqlConnection con = null;
             try
@@ -107,7 +112,29 @@ namespace AdoConnect
                 }
             }
         }
-
-
+        public void QueryTable(SqlConnection con)
+        {
+            var q = "select count(*) from stu;";
+            var q1 = "INSERT INTO stu (id, name, branch) VALUES (1, 'Sandeep', 'Computer Science')";
+           // var q2 = "alter table stu add phone varchar(20) null";
+            var q3 = "update stu set phone='1234567890' where id=1";
+            var q5 = "delete from stu where id=1";
+            SqlCommand c = new SqlCommand(q, con);
+            SqlCommand c1 = new SqlCommand(q1, con);
+           // SqlCommand c2 = new SqlCommand(q2, con);
+            SqlCommand c3 = new SqlCommand(q3, con);
+            SqlCommand c4 = new SqlCommand(q5, con);
+            var reader = c.ExecuteScalar();
+            var reader2 = c1.ExecuteScalar();
+           // var reader3 = c2.ExecuteScalar();
+            var reader4 = c3.ExecuteScalar();
+            var reader5 = c4.ExecuteScalar();
+            Console.WriteLine(reader);
+            Console.WriteLine(reader2);
+           // Console.WriteLine(reader3);
+            Console.WriteLine(reader4);
+            Console.WriteLine(reader5);
+            Console.WriteLine("Data Inserted and Deleted Successfully");
+        }
     }
 }
