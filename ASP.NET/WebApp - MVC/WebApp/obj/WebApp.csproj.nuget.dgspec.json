@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SANDEEP_PC\\source\\repos\\WebApp\\WebApp\\WebApp.csproj": {}
+    "S:\\CSharp\\ASP.NET\\WebApp - MVC\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SANDEEP_PC\\source\\repos\\WebApp\\WebApp\\WebApp.csproj": {
+    "S:\\CSharp\\ASP.NET\\WebApp - MVC\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SANDEEP_PC\\source\\repos\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "S:\\CSharp\\ASP.NET\\WebApp - MVC\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\SANDEEP_PC\\source\\repos\\WebApp\\WebApp\\WebApp.csproj",
+        "projectPath": "S:\\CSharp\\ASP.NET\\WebApp - MVC\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\SANDEEP_PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SANDEEP_PC\\source\\repos\\WebApp\\WebApp\\obj\\",
+        "outputPath": "S:\\CSharp\\ASP.NET\\WebApp - MVC\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
